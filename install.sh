@@ -1,6 +1,6 @@
-sudo apt update
-sudo apt install lxqt-core
-sudo apt install tigervnc-standalone-server tigervnc-common
+sudo apt update -y
+sudo apt install lxqt-core -y
+sudo apt install tigervnc-standalone-server tigervnc-common -y
 vncserver
 vncserver -geometry 1200*700
 sudo apt install git
